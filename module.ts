@@ -1,8 +1,8 @@
-import * as angular from 'angular';
+import * as importedAngular from 'angular';
 import 'angular-local-storage'
 
 class FooService {
-  constructor(private localStorageService: angular.local.storage.ILocalStorageServiceProvider) {
+  constructor(private localStorageService: importedAngular.local.storage.ILocalStorageServiceProvider) {
 
   }
 }
