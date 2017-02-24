@@ -1,0 +1,19 @@
+{
+  "name": "so-42444599",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "author": "Huy Nguyen <huy@huy-nguyen.com> (http://www.huy-nguyen.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular-local-storage": "0.1.33",
+    "rimraf": "2.6.1",
+    "typescript": "2.2.1"
+  },
+  "dependencies": {
+    "angular-local-storage": "0.5.2"
+  }
+}
